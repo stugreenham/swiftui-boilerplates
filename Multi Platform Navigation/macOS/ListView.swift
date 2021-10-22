@@ -9,12 +9,16 @@ import SwiftUI
 
 struct ListView: View {
     var body: some View {
-        HStack {
+        NavigationView {
             List(0 ..< 50) { item in
-                ItemListRow()
+                NavigationLink(destination: ItemView()) {
+                    ItemListRow()
+                }
             }
+            //.listStyle(SidebarListStyle())
             .navigationTitle("List")
         }
+        //.navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

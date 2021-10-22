@@ -117,9 +117,9 @@
 		27E5DF1126C256F600F9DBC6 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				27E4802226C2DEAA0079D987 /* ListView.swift */,
 				27E5DF1226C256F600F9DBC6 /* Info.plist */,
 				27E5DF1326C256F600F9DBC6 /* macOS.entitlements */,
-				27E4802226C2DEAA0079D987 /* ListView.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";

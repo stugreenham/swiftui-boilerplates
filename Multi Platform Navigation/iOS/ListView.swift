@@ -20,12 +20,12 @@ struct ListView: View {
     }
     
     var content: some View {
-        HStack {
-            List(0 ..< 50) { item in
+        List(0 ..< 50) { item in
+            NavigationLink(destination: ItemView()) {
                 ItemListRow()
             }
-            .navigationTitle("List")
         }
+        .navigationTitle("List")
     }
     
 }
